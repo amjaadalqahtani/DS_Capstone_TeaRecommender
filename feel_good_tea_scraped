@@ -164,18 +164,12 @@ tea_df <- data.frame(tea_list)
 
 tidy_tdf <- pivot_longer(tea_df, everything())
 
-tidy_tdf_split <- strsplit(tidy_tdf$value, split = "\n")
+tidy_tdf_new_split <- strsplit(tidy_tdf$value, split = "\n")
 
 tidy_tdf_new <- tidy_tdf %>% add_column("description", "ingredients", "link", "color", "origin", "time", "flavor", "caffeine", "steeping", "similar")
 
-tidy_tdf_new_split <- strsplit(tidy_tdf_new$value, split = "\n")
+tidy_tdf_split <- strsplit(tidy_tdf_new$value, split = "\n")
 
 tdf_by_split <- do.call(rbind.data.frame, tidy_tdf_new_split)
 
-#teas = list(greens, blacks, whites, oolongs, puerhs, fruits, herbals, rooibos, florals, "description", "ingredients", "reviews", "link", "color", "origin", "time", "flavor", "caffeine", "steeping", "similar_flavors", stringsAsFactors = FALSE)
-
-#testing a webpage for scaping:
-#mango_link <- "https://thefeelgoodtea.co/collections/green-tea/products/mango-goodness"
-#mango_page <- read_html(mango_link)
-  
-#mango = mango_page %>% html_nodes(".Rte") %>% html_text()
+write.csv(tdf_by_split, "tdf_by_split.csv")

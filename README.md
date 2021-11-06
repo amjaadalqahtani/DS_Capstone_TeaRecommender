@@ -5,7 +5,7 @@ Data Dictionary:
 
 | Field Name | Data Type | Description | Example |
 | ---------- | ---------- | ---------- | ---------- |
-| Health Problem | Character | Themes of similar health problems based on type | respiratory |
+| Health Problem | Character | Themes of similar health problems based on type | anti-inflammatory |
 | Tea Name | Character | Name of tea from scraped content | Green Jasmine Allure |
 | Tea Category | Integer | Family of tea based on harvesting and processing methods | Green Tea |
 | Time | Boolean | Time of day best to drink it | 0= night, 1= day |

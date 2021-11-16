@@ -22,4 +22,5 @@ Tea Recommendation System using scraped information from online tea stores and h
 
 ## Contributing
 
-Dataset titled "clean_megalist.csv" can be used for practcing other data science projects. Built for the project and as a fun application of webscraping. I might update it in the future. Other files are personal and may only be used within the scope of the Misk DSI course. 
+Dataset titled "clean_megalist.csv" can be used for practicing data science projects. The dataset was built for this project as a fun application of webscraping. I might update it in the future. 
+**Other files are personal and may only be used within the scope of the Misk DSI course. 

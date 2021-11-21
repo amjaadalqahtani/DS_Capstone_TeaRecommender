@@ -219,9 +219,9 @@ megalist$Benefits <- NULL
 megalist$Steeping <- NULL
 megalist$X <- NULL
 
-#rename the Rstudio generated column "ï..X" to "ID"
+#rename the Rstudio generated column "Ã¯..X" to "ID"
 #it can be used as an identifier to the tea Names
-megalist <- rename(megalist, ID = ï..X)
+megalist <- rename(megalist, ID = Ã¯..X)
 
 #combine URL and Link into a new variable called 'urls'
 #add "://" between them to make a link (link was split from earlier splitting)
@@ -246,9 +246,9 @@ megalist <- megalist %>%
   mutate_at("Flavor", str_replace, "Flavor", "")
 
 megalist <- megalist %>%
-  mutate_at("Ingredients", str_replace, "Ingredients:Ã,Â", "")
+  mutate_at("Ingredients", str_replace, "Ingredients:Ãƒ,Ã‚", "")
 megalist <- megalist %>%
-  mutate_at("Ingredients", str_replace, "Ingredidents:Ã,Â", "")
+  mutate_at("Ingredients", str_replace, "Ingredidents:Ãƒ,Ã‚", "")
 megalist <- megalist %>%
   mutate_at("Ingredients", str_replace, "Ingredients:", "")
 megalist <- megalist %>%

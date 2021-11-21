@@ -21,3 +21,6 @@ Tea Recommendation System using scraped information from online tea stores and h
 
 ## Contributing
 The dataset file "clean_megalist.csv" is compiled from 9 different tea brands, the zip file "scraped_teabrands.zip" includes the scraped raw data. I made them for the purposes of the class, but both can be used to practice with data science projects. Feel free to expirement with it! Other files have my own research and code for information gathering, data tidying, and modeling a simple recommendation system.
+
+## References
+All the references used for this project are listed here: https://rpubs.com/aalqahtani/838154

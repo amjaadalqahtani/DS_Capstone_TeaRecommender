@@ -1,12 +1,13 @@
 # DS Capstone: Tea Recommender (2021)
 
-Tea Recommendation System using scraped information from online tea stores and health benefits from scientific journals. It suggests tea based on user preference and ingredients of the tea. The algorithm takes tea name as input and returns the top 5 most similar teas as output. This is a project for the capstone requirement part of the course "Data Science Immersive" by Misk Skills and MCIT. 
+A Tea Recommendation System using scraped information from online tea stores and health benefits from scientific journals.  
+It suggests tea based on user preference and ingredients of the tea. The algorithm takes tea name as input and returns the top 5 most similar teas as output. This is a project for the capstone requirement part of the course "Data Science Immersive" by Misk Skills and MCIT. 
 
 ## Folders
-TeaRecommender: has the final project in a jupyter notebook and the .py source code.  
-data-tidying: has the R source code for tidying raw scraped data into the final dataset found in the data folder.  
-data: has the final datasets used for the recommender.  
-web-scraping: contains all web-scraping files and resulting .csv files.  
+**TeaRecommender:** contains the final project in a jupyter notebook and the .py source code.  
+**data-tidying:** the R source code for tidying raw scraped data into the final dataset found in the data folder.  
+**data:** the final datasets used for the recommender.  
+**web-scraping:** contains all web-scraping files and resulting .csv files.  
 
 ## Data Dictionary
 | Field Name | Data Type | Description | Example |
@@ -29,4 +30,4 @@ web-scraping: contains all web-scraping files and resulting .csv files.
 The file "clean_megalist.csv" is compiled from 9 different tea brands, the zip file "scraped_teabrands.zip" includes the scraped raw data. Both can be found in the "data" folder. I made them for the purposes of the class, but they can be used to practice with data science projects. Feel free to expirement with them! Other files are the result of my own research and code for information gathering, data tidying, and modeling a simple recommendation system.
 
 ## References
-All the references used for this project are listed here: https://rpubs.com/aalqahtani/838154
+All the references used for this project are listed **here: https://rpubs.com/aalqahtani/838154**

@@ -3,10 +3,10 @@
 Tea Recommendation System using scraped information from online tea stores and health benefits from scientific journals. It suggests tea based on user preference and ingredients of the tea. The algorithm takes tea name as input and returns the top 5 most similar teas as output. This is a project for the capstone requirement part of the course "Data Science Immersive" by Misk Skills and MCIT. 
 
 ## Folders
-TeaRecommender: has the final project in a jupyter notebook and the .py source code
-data: has the final datasets used for the recommender
-web-scraping: contains all web-scraping files and resulting .csv files
-data-tidying: has the R source code for tidying raw scraped data into the final dataset found in the data folder
+TeaRecommender: has the final project in a jupyter notebook and the .py source code.  
+data-tidying: has the R source code for tidying raw scraped data into the final dataset found in the data folder.  
+data: has the final datasets used for the recommender.  
+web-scraping: contains all web-scraping files and resulting .csv files.  
 
 ## Data Dictionary
 | Field Name | Data Type | Description | Example |
